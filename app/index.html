@@ -1,16 +1,53 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Hire Cup</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">  <link rel="stylesheet" href="css/styles.min.css">
+  <link rel="stylesheet" href="css/styles.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,700;0,800;0,900;1,400;1,600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Hello</h1>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <header>
+    <nav class="container d-flex justify-content-space-between align-items-center">
+      <div class="d-flex align-items-center">
+        <img src="img/svg/logo.svg" alt="Logo" width="34" height="35">
+        <span class="logo-caption">Hire<span>Cup</span></span>
+      </div>
+      <div>
+        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link ml-14" href="#">About</a>
+        <a class="nav-link ml-14" href="#">Asset</a>
+        <a class="nav-link ml-14" href="#">Contact</a>
+        <button class="btn-primary btn-square ml-10">Sign up</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <div class="container">
+        <div class="d-flex flex-column">
+          <span class="heading-overhead">Get Best Employee</span>
+          <h1>We find the  best asset for you</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae sit donec lectus suscipit ultricies rhoncus.
+            Egestas platea in mauris urna gravida odio nam quisque </p>
+          <form class="d-flex flex-column">
+            <label class="search-label" for="search">Search for job/employe</label>
+            <div class="d-flex align-items-center">
+              <input id="search" type="search" placeholder="Ex: Graphic Designer">
+              <button class="btn-search" type="button"><img src="img/svg/search.svg" alt="Search" width="26" height="26"></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script></script>
   <script src="js/scripts.min.js"></script>
  </body>
 </html>
