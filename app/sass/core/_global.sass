@@ -3,6 +3,14 @@
 a
   text-decoration: none
   color: $black
+  font-family: Mulish, sans-serif
+  font-weight: 700
+  font-size: 15px
+  &.link-accent
+    color: $primary-light
+    text-decoration: underline
+    &:hover
+      color: $primary-base
 
 body
   background-color: #F4F4F4
@@ -37,4 +45,28 @@ p
   font-size: 18px
   color: $black
   line-height: 28px
+  opacity: 60%
   margin: 0
+
+.heading-overhead
+  color: $primary-light
+  font-family: Mulish, sans-serif
+  font-weight: 600
+  font-size: 18px
+  &::before
+    display: inline-block
+    content: ''
+    width: 55px
+    border-top: 3px solid $primary-light
+    margin-right: 12px
+    transform: translateY(-5px)
+
+.heading-overhead-accent
+  color: $accent-base
+  &::before
+    display: inline-block
+    content: ''
+    width: 55px
+    border-top: 3px solid $accent-base
+    margin-right: 12px
+    transform: translateY(-5px)
