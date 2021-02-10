@@ -1,0 +1,46 @@
+@import "../colors"
+
+.search-label
+  font-family: Mulish, sans-serif
+  font-weight: 600
+  font-size: 18px
+  font-style: italic
+  color: $accent-base
+
+.home-img-container
+  position: absolute
+  top: 0
+  right: 0
+  bottom: 0
+  z-index: -1
+  //img
+  //    background-color: $accent-base
+  //    border-radius: 0 0 0 100px
+  //    transform: rotate(4.36deg)
+  //    width: 933.49px
+  //    height: 984.32px
+
+.home-content
+  width: 70%
+  margin-top: 165px
+  &::before
+    content: ""
+    background-color: $secondary-dark
+    width: 166px
+    height: 166px
+    position: absolute
+    top: 245px
+    left: 150px
+    z-index: -1
+    border-radius: 50%
+  p
+    width: 55%
+  h1
+    span
+      background-color: rgba($accent-base, 0.51)
+      padding-left: 30px
+      padding-right: 30px
+
+#logos
+  margin-top: 340px
+  margin-bottom: 200px
